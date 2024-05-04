@@ -65,7 +65,7 @@ header ul li a:hover {
 }
 
 header.scrollh {
-    background-color: rgba(240, 248, 255, 0.804);
+    background-color: rgba(240, 248, 255, 0.849);
     padding: 20px 4%;
 }
 
@@ -113,4 +113,21 @@ header.scrollh a {
 
 .banner h1 span {
     color: rgb(114, 167, 213);
+}
+.total{
+ display: block;
+ margin: auto;
+ background-color: #01003a;
+ width: 80vw;
+ min-height: 500px;
+ margin-top: 100px;
+ border-radius: 50px;
+}
+.jogos{
+    display: block;
+    margin-top: 5px;
+    margin: auto;
+    background-color: #fff;
+    height: 200px;
+    width: 90%;
 }
