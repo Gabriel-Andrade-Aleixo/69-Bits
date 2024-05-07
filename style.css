@@ -6,9 +6,9 @@
     border-radius: 10px;
 }
 
-html {
+/* html {
     height: 500vh;
-}
+} */
 
 body {
     background-color: black;
@@ -162,6 +162,11 @@ header.scrollh a {
     border-radius: 100%;
     background-color: black;
     width: 120px;
+    transition: .5s;
+}
+.gender img:hover{
+    transition: .5s;
+    background-color: aliceblue;;
 }
 hr{
     width: 100%;
@@ -169,5 +174,16 @@ hr{
 .generos{
     margin: 50px 0 ;
     width: 90%;
-    height: 500px;
+    height: 320px;
+}
+.imgf{
+    float: left;
+}
+footer{
+    margin: 20px 0 0;
+    border-radius: 20px 20px 0 0;
+    height: 300px; 
+    width: 100%; 
+    padding: 20px;
+    border: aliceblue solid 1px;
 }
