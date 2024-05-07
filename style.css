@@ -23,7 +23,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: ;
 }
 
 header {
@@ -135,7 +134,7 @@ header.scrollh a {
     margin-top: 15px;
     justify-content: center;
     /* margin: auto; */
-    background-color: #fff;
+    background-color: aliceblue;
     min-height: 200px;
     width: 90%;
 }
@@ -187,4 +186,11 @@ footer{
     width: 100%; 
     padding: 20px;
     border: aliceblue solid 1px;
+    border-color: aliceblue;
+    min-height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: center;
 }
