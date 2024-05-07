@@ -23,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: ;
 }
 
 header {
@@ -98,7 +99,7 @@ header.scrollh a {
 
 .banner {
     height: 100vh;
-    background-image: url(./ImgHome/BC.png!d);
+    background-image: url(./ImgHome/BC.png);
     background-position: center;
     background-repeat: no-repeat;
     block-size: cover;
