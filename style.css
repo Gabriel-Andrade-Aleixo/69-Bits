@@ -35,11 +35,7 @@ header {
 }
 
 header img {
-    height: 30px;
-}
-
-header img:hover {
-    height: 30px;
+    height: 50px;
     transition: .5s;
 }
 
@@ -85,6 +81,7 @@ header.scrollh a {
     color: aliceblue;
 }
 
+
 .logon button:hover {
     width: 120px;
     height: 40px;
@@ -115,20 +112,22 @@ header.scrollh a {
 .banner h1 span {
     color: rgb(114, 167, 213);
 }
-.total{
- display: flex;
- /* margin: auto; */
- flex-direction: column;
- align-items: center;
- background-color: #01003a;
- width: 80vw;
- min-height: 1000px;
- margin-top: 100px;
- border-radius: 50px;
- /* padding: 20 4%; */
- padding-bottom: 100px;
+
+.total {
+    display: flex;
+    /* margin: auto; */
+    flex-direction: column;
+    align-items: center;
+    background-color: #010031c2;
+    width: 80vw;
+    min-height: 1000px;
+    margin-top: 100px;
+    border-radius: 50px;
+    /* padding: 20 4%; */
+    padding-bottom: 100px;
 }
-.jogos{
+
+.jogos {
     display: flex;
     align-items: center;
     margin-top: 15px;
@@ -138,52 +137,65 @@ header.scrollh a {
     min-height: 200px;
     width: 90%;
 }
-.primal{
+
+.primal {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.imghome{
+
+.imghome {
     height: 180px;
 }
-.lorem{
+
+.lorem {
     font-size: 1.5rem;
 }
-.imghome, .lorem{
+
+.imghome,
+.lorem {
     margin: 20px;
 }
-.gender{
+
+.gender {
     padding: 40px;
-    height: 200px; 
-    width: 100%; 
+    height: 200px;
+    width: 100%;
     border-radius: 0;
 }
-.gender img{
+
+.gender img {
     border-radius: 100%;
     background-color: black;
     width: 120px;
     transition: .5s;
 }
-.gender img:hover{
+
+.gender img:hover {
     transition: .5s;
-    background-color: aliceblue;;
+    background-color: aliceblue;
+    ;
 }
-hr{
+
+hr {
     width: 100%;
 }
-.generos{
-    margin: 50px 0 ;
+
+.generos {
+    margin: 50px 0;
     width: 90%;
     height: 320px;
 }
-.imgf{
+
+.imgf {
     float: left;
 }
-footer{
+
+footer {
     margin: 20px 0 0;
     border-radius: 20px 20px 0 0;
-    height: 300px; 
-    width: 100%; 
+    height: 300px;
+    width: 100%;
     padding: 20px;
     border: aliceblue solid 1px;
     border-color: aliceblue;
@@ -193,4 +205,23 @@ footer{
     align-items: center;
     margin-top: 15px;
     justify-content: center;
+}
+
+.gender2 a{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition: .4s;
+}
+.gender2 a:hover{
+    color: rgb(103, 169, 226);
+    transition: .4s;
+}
+.gender2 a:active{
+    color: rgb(39, 143, 235);
+    transition: .2s;
+    text-decoration: underline;
 }
