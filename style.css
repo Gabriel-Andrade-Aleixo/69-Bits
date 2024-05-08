@@ -62,8 +62,9 @@ header ul li a:hover {
 }
 
 header.scrollh {
-    background-color: rgba(240, 248, 255, 0.849);
+    background-color: rgba(213, 239, 252, 0.750);
     padding: 20px 4%;
+    border-radius: 0 0 20px 20px;
 }
 
 header.scrollh a {
@@ -122,9 +123,11 @@ header.scrollh a {
     width: 80vw;
     min-height: 1000px;
     margin-top: 100px;
+    margin-bottom: 50px;
     border-radius: 50px;
     /* padding: 20 4%; */
     padding-bottom: 100px;
+    box-shadow: 0px 0px 45px 2px rgba(152, 248, 255, 0.308);
 }
 
 .jogos {
@@ -197,17 +200,22 @@ footer {
     height: 300px;
     width: 100%;
     padding: 20px;
-    border: aliceblue solid 1px;
-    border-color: aliceblue;
+    /* border: aliceblue solid 1px; */
+    /* border-color: aliceblue; */
     min-height: 200px;
-    background-color: aliceblue;
+    background-color: #010031c2;
     display: flex;
     align-items: center;
     margin-top: 15px;
     justify-content: center;
+    box-shadow: 0px 0px 45px 2px rgba(152, 248, 255, 0.308);
 }
-
-.gender2 a{
+footer p{
+    font-size: 1.5rem;
+    margin: 20px;
+    color: aliceblue;
+}
+.gender2 a {
     color: aliceblue;
     display: flex;
     justify-content: center;
@@ -216,11 +224,13 @@ footer {
     text-decoration: none;
     transition: .4s;
 }
-.gender2 a:hover{
+
+.gender2 a:hover {
     color: rgb(103, 169, 226);
     transition: .4s;
 }
-.gender2 a:active{
+
+.gender2 a:active {
     color: rgb(39, 143, 235);
     transition: .2s;
     text-decoration: underline;
