@@ -9,7 +9,7 @@ window.onload = function () {
 
 function enviarFormulario() {
     var formulario = document.getElementById('meuFormulario');
-    var campos = formulario.getElementsByTagName('input');
+    var campos = formulario.getElementsByTagName('nome', 'email', 'mansag', 'fem', 'masc', 'outro');
     for (var i = 0; i < campos.length; i++) {
         campos[i].value = '';
     }

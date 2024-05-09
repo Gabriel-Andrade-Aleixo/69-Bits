@@ -47,7 +47,7 @@
     }
 
     .labelInput {
-        position:absolute;
+        position: absolute;
         top: 0px;
         left: 0px;
         pointer-events: none;
@@ -60,9 +60,11 @@
         font-size: 15px;
         color: rgb(136, 195, 253);
     }
-    .labelgen{
+
+    .labelgen {
         font-size: 15px;
     }
+
     #data_nascimento {
         border: none;
         padding: 8px;
@@ -113,45 +115,47 @@
     <div class="primal">
         <div class="total">
             <div class="cont">
-                <fieldset>
+                <form id="meuFormulario" method="post">
+                    <fieldset>
 
-                    <form id="meuFormulario" method="post">
-                    <legend>
-                        <h1><b>Contato/Duvidas</b></h1>
-                    </legend>
-                    <br>
-                    <div class="inputBox">
-                        <input type="text" name="nome" id="nome" class="inputUser" required>
-                        <label for="nome" class="labelInput">Nome completo</label>
-                    </div>
-                    <br><br>
-                    <div class="inputBox">
-                        <input type="text" name="email" id="email" class="inputUser" required>
-                        <label for="email" class="labelInput">Email</label>
-                    </div>
-                    <br><br>
-                    <div class="inputBox">
-                        <input type="text" name="mensag" id="mensag" class="inputUser" required>
-                        <label for="mensag" class="labelInput">Mensagem</label>
-                    </div>
-                    <br><br>
-                    <p>Sexo:</p><br>
-                    <input type="radio" id="feminino" name="genero" value="feminino" required>
-                    <label for="feminino" class="labelgen">Feminino</label>
-                    <br>
-                    <input type="radio" id="masculino" name="genero" value="masculino" required>
-                    <label for="masculino" class="labelgen">Masculino</label>
-                    <br>
-                    <input type="radio" id="outro" name="genero" value="outro" required>
-                    <label for="outro" class="labelgen">Outro</label>
-                    <br><br>
-                    <label for="data_nascimento"><b>Data de Nascimento:</b></label>
-                    <input type="date" name="data_nascimento" id="data_nascimento" required>
-                    <br><br>
-                    <input type="submit" id="submit" value="ENVIAR" onclick="enviarFormulario()">
-                    <div id="mensagem" style="display: none;">Enviado!!!</div>
-                    </form>
-                </fieldset>
+
+                        <legend>
+                            <h1><b>Contato/Duvidas</b></h1>
+                        </legend>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelInput">Nome completo</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelInput">Email</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="mensag" id="mensag" class="inputUser" required>
+                            <label for="mensag" class="labelInput">Mensagem</label>
+                        </div>
+                        <br><br>
+                        <p>Sexo:</p><br>
+                        <input type="radio" id="fem" name="genero" value="feminino" required>
+                        <label for="feminino" class="labelgen">Feminino</label>
+                        <br>
+                        <input type="radio" id="masc" name="genero" value="masculino" required>
+                        <label for="masculino" class="labelgen">Masculino</label>
+                        <br>
+                        <input type="radio" id="outro" name="genero" value="outro" required>
+                        <label for="outro" class="labelgen">Outro</label>
+                        <br><br>
+                        <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                        <input type="date" name="data_nascimento" id="data_nascimento" required>
+                        <br><br>
+                        <input type="submit" id="submit" value="ENVIAR" onclick="enviarFormulario()">
+                        <div id="mensagem" style="display: none;">Enviado!!!</div>
+
+                    </fieldset>
+                </form>
             </div>
         </div>
     </div>
