@@ -65,11 +65,13 @@ header.scrollh {
     background-color: rgba(213, 239, 252, 0.750);
     padding: 20px 4%;
     border-radius: 0 0 20px 20px;
+    z-index: 99999999;
 }
 
 header.scrollh a {
     color: blue;
 }
+
 header.scrollh a:hover {
     color: rgb(0, 0, 65);
 }
@@ -241,3 +243,82 @@ footer p {
     text-decoration: underline;
 }
 
+.cont {
+    width: 90%;
+    padding: 20px;
+}
+
+fieldset {
+    border: 3px solid rgba(213, 239, 252, 0.750);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+legend {
+    border: 3px solid rgba(213, 239, 252, 0.750);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus~.labelInput,
+.inputUser:valid~.labelInput {
+    top: -20px;
+    font-size: 15px;
+    color: rgb(136, 195, 253);
+}
+
+.labelgen {
+    font-size: 15px;
+}
+
+#data_nascimento {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    color: black;
+}
+
+#submit, #login {
+    background-image: linear-gradient(to right, rgba(213, 239, 252, 0.750), rgba(78, 187, 241, 0.75));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-image: linear-gradient(to right, rgba(78, 187, 241, 0.75), rgba(213, 239, 252, 0.750));
+}
+
+#login:hover {
+    background-image: linear-gradient(to right, rgba(78, 187, 241, 0.75), rgba(213, 239, 252, 0.750));
+}

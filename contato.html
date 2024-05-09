@@ -12,82 +12,6 @@
         color: aliceblue;
         border-radius: 0;
     }
-
-    .cont {
-        width: 90%;
-        padding: 20px;
-    }
-
-    fieldset {
-        border: 3px solid rgba(213, 239, 252, 0.750);
-        padding: 20px;
-        border-radius: 20px;
-    }
-
-    legend {
-        border: 3px solid rgba(213, 239, 252, 0.750);
-        padding: 10px;
-        text-align: center;
-        border-radius: 10px;
-    }
-
-    .inputBox {
-        position: relative;
-    }
-
-    .inputUser {
-        background: none;
-        border: none;
-        border-bottom: 1px solid white;
-        outline: none;
-        color: white;
-        font-size: 20px;
-        width: 100%;
-        letter-spacing: 2px;
-    }
-
-    .labelInput {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        pointer-events: none;
-        transition: .5s;
-    }
-
-    .inputUser:focus~.labelInput,
-    .inputUser:valid~.labelInput {
-        top: -20px;
-        font-size: 15px;
-        color: rgb(136, 195, 253);
-    }
-
-    .labelgen {
-        font-size: 15px;
-    }
-
-    #data_nascimento {
-        border: none;
-        padding: 8px;
-        border-radius: 10px;
-        outline: none;
-        font-size: 15px;
-        color: black;
-    }
-
-    #submit {
-        background-image: linear-gradient(to right, rgba(213, 239, 252, 0.750), rgba(78, 187, 241, 0.75));
-        width: 100%;
-        border: none;
-        padding: 15px;
-        color: rgb(0, 0, 0);
-        font-size: 15px;
-        cursor: pointer;
-        border-radius: 10px;
-    }
-
-    #submit:hover {
-        background-image: linear-gradient(to right, rgba(78, 187, 241, 0.75), rgba(213, 239, 252, 0.750));
-    }
 </style>
 
 <body>
@@ -99,12 +23,12 @@
                     <ul>
                         <li><b><a href="./index.html">Inicio</a></b></li>
                         <li><b><a href="./index.html#categoria">Generos</a></b></li>
-                        <li><b><a href="#">Jogos</a></b></li>
+                        <li><b><a href="./jogos.html">Jogos</a></b></li>
                         <li><b><a href="#">Contato</a></b></li>
                     </ul>
                 </nav>
                 <div class="logon">
-                    <a href="#">
+                    <a href="./login.html">
                         <button>Login</button>
                     </a>
                 </div>
@@ -115,8 +39,7 @@
     <div class="primal">
         <div class="total">
             <div class="cont">
-                <form id="meuFormulario" method="post">
-                    <fieldset>
+                    <fieldset id="meuFormulario">
 
 
                         <legend>
@@ -151,11 +74,10 @@
                         <label for="data_nascimento"><b>Data de Nascimento:</b></label>
                         <input type="date" name="data_nascimento" id="data_nascimento" required>
                         <br><br>
-                        <input type="submit" id="submit" value="ENVIAR" onclick="enviarFormulario()">
-                        <div id="mensagem" style="display: none;">Enviado!!!</div>
+                        <button onclick="limparFormulario()" id="submit">ENVIAR</button>
+                        <div id="mensagem" style="display: none; margin-top: 20px; font-size: 15px;"><b>Enviado!!!</b></div>
 
                     </fieldset>
-                </form>
             </div>
         </div>
     </div>
