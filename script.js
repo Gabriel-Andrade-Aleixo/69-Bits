@@ -3,9 +3,6 @@ window.addEventListener("scroll", function () {
     header.classList.toggle('scrollh', window.scrollY > 100)
 })
 
-// window.onload = function () {
-//     window.scrollTo(0, 0);
-// }
 
 function limparFormulario() {
     var formulario = document.getElementById('meuFormulario');
