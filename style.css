@@ -38,17 +38,19 @@ header {
     height: 100px;
     transition: .5s;
 } */
-header .logo2{
+header .logo2 {
     height: 100px;
     width: 100px;
     transition: .4s;
     background-image: url(./ImgHome/Teste.png);
     background-size: cover;
 }
-header .logo2:hover{
+
+header .logo2:hover {
     transition: .4s;
     background-image: url(./ImgHome/TesteHover.png);
 }
+
 header ul {
     list-style-type: none;
 }
@@ -62,13 +64,14 @@ header ul li a {
     color: aliceblue;
     text-decoration: none;
     transition: .5s;
+    font-size: 1.5rem;
 }
 
 header ul li a:hover {
     color: rgb(185, 222, 255);
     text-decoration: none;
     transition: .5s;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 
 header.scrollh {
@@ -128,6 +131,7 @@ header.scrollh a:hover {
 .banner h1 span {
     color: rgb(114, 167, 213);
 }
+
 .bannerstardew {
     height: 100vh;
     background-image: url(./Stardew/img/logo/StardewBanner.png);
@@ -185,11 +189,13 @@ header.scrollh a:hover {
     transition: .5s;
     height: 180px;
 }
-.imghome:hover {   
+
+.imghome:hover {
     opacity: 75%;
     transition: .5s;
     cursor: pointer;
 }
+
 .lorem {
     font-size: 1.5rem;
 }
@@ -338,7 +344,8 @@ legend {
     color: black;
 }
 
-#submit, #login {
+#submit,
+#login {
     background-image: linear-gradient(to right, rgba(213, 239, 252, 0.750), rgba(78, 187, 241, 0.75));
     width: 100%;
     border: none;
@@ -355,4 +362,22 @@ legend {
 
 #login:hover {
     background-image: linear-gradient(to right, rgba(78, 187, 241, 0.75), rgba(213, 239, 252, 0.750));
+}
+
+/* .spacebe {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.spacebe img {
+    display: inline-block;
+} */
+
+
+
+.spacebe img {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
 }
