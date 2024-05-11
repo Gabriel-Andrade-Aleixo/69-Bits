@@ -381,3 +381,7 @@ legend {
     margin-right: 15px;
     vertical-align: middle;
 }
+
+footer img {
+    border-radius: 5px;
+}
