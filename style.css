@@ -221,7 +221,8 @@ header.scrollh a:hover {
 
 .gender img:hover {
     transition: .5s;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.322);
+    width: 125px;
     ;
 }
 
@@ -380,6 +381,21 @@ legend {
     display: inline-block;
     margin-right: 15px;
     vertical-align: middle;
+}
+
+.head_sobre {
+    color: aliceblue;
+    text-align: center;
+}
+
+.img_sobre {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img_sobre:hover {
+    opacity: 0.8;
 }
 
 footer img {
