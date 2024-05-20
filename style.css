@@ -396,16 +396,35 @@ legend {
 .head_sobre {
     color: aliceblue;
     text-align: center;
+    padding: 20px;
 }
 
 .img_sobre {
     display: flex;
     justify-content: space-between;
-
+    color: aliceblue;
 }
 
 .img_sobre:hover {
     opacity: 0.8;
+}
+
+.anima {
+    display: flex;
+    animation: llogon 8s infinite;
+}
+
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.text_sobre {
+    color: aliceblue;
+    padding: 20px;
+    font-size: 20px;
 }
 
 footer img {
