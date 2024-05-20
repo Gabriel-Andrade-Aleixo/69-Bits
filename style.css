@@ -48,7 +48,17 @@ header .logo2 {
 
 header .logo2:hover {
     transition: .4s;
-    background-image: url(./ImgHome/TesteHover.png);
+    animation: llogon 4s infinite;
+}
+
+@keyframes llogon {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
 }
 
 header ul {
