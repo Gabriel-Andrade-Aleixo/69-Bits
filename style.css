@@ -5,7 +5,9 @@
     font-family: monospace;
     border-radius: 10px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* html {
     height: 500vh;
 } */
