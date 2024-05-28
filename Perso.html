@@ -19,7 +19,7 @@
                 color: aliceblue;
         }
 
-        img {
+        .total img {
                 border-radius: 50%;
                 margin: 10px;
                 border: 2px solid aliceblue;
@@ -27,7 +27,7 @@
                 transition: .5s;
         }
 
-        img:hover {
+        .total img:hover {
                 background-color: aliceblue;
         }
 </style>
@@ -242,19 +242,12 @@
                                         </div>
                                 </fieldset>
                         </div>
-                        <br>
-                        <h1>Personagens:</h1>
-                        <div id="Alex" class="generos" id="tudo" style="height: 500px;">
-                                <iframe src="./tela.html" name="tudo" frameborder="0" width="100%"
-                                        height="100%"></iframe>
-                        </div>
-                        <h3>Selecione um personagem da aba de aldeões para ser exibido acima!</h3>
-                        <br>
+
                 </div>
         </div>
         <footer class="flex">
 
-                <img src="./ImgHome/imgProvisoria.png" alt="Boneco" style="height: 90%;">
+                <img src="./ImgHome/imgProvisoria.svg" alt="Boneco">
 
 
                 <p>
@@ -270,14 +263,6 @@
                 </p>
 
         </footer>
-        <script>
-                function scrollToIframe(event) {
-                        event.preventDefault();
-                        var iframe = document.getElementById('meuIframe');
-                        iframe.src = event.currentTarget.href;
-                        iframe.scrollIntoView({ behavior: 'smooth' });
-                }
-        </script>
 </body>
 
 </html>
