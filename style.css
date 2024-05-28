@@ -407,8 +407,12 @@ legend {
     color: aliceblue;
 }
 
-.img_sobre:hover {
-    opacity: 0.8;
+.img_sobre img{
+    margin: 10px;
+}
+
+.img_sobre img:hover {
+    opacity: 0.7;
 }
 
 .anima {
