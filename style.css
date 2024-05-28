@@ -191,7 +191,7 @@ header.scrollh a:hover {
     background-repeat: no-repeat;
     block-size: cover;
     display: flex;
-    align-ibannermems: cenbannermier;
+    align-items: center;
     justify-content: center;
 }
 
