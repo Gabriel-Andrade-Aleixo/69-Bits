@@ -164,6 +164,46 @@ header.scrollh a:hover {
     color: rgb(114, 167, 213);
 }
 
+.bannermine {
+    height: 100vh;
+    background-image: url(./Mine/img/logo/);
+    background-position: center;
+    background-repeat: no-repeat;
+    block-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannermine h1 {
+    font-size: 4em;
+    color: rgb(49, 135, 211);
+}
+
+.bannermine h1 span {
+    color: rgb(114, 167, 213);
+}
+
+.bannerundertale {
+    height: 100vh;
+    background-image: url(./Undertale/img/logo/under.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    block-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerundertale h1 {
+    font-size: 4em;
+    color: rgb(49, 135, 211);
+}
+
+.bannerundertale h1 span {
+    color: rgb(114, 167, 213);
+}
+
 .total {
     display: flex;
     /* margin: auto; */
