@@ -166,7 +166,7 @@ header.scrollh a:hover {
 
 .bannermine {
     height: 100vh;
-    background-image: url(./Mine/img/logo/);
+    background-image: url(./Mine/img/logo/bannermine.jpg);
     background-position: center;
     background-repeat: no-repeat;
     block-size: cover;
@@ -191,7 +191,7 @@ header.scrollh a:hover {
     background-repeat: no-repeat;
     block-size: cover;
     display: flex;
-    align-items: center;
+    align-ibannermems: cenbannermier;
     justify-content: center;
 }
 
