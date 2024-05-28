@@ -186,7 +186,7 @@ header.scrollh a:hover {
 
 .bannerundertale {
     height: 100vh;
-    background-image: url(./Undertale/img/logo/bannerunder.jpg);
+    background-image: url(./Undertale/img/logo/bannerunder.png);
     background-position: center;
     background-repeat: no-repeat;
     block-size: cover;
