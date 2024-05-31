@@ -49,6 +49,7 @@ header .logo2 {
 }
 
 header .logo2:hover {
+    cursor: pointer;
     transition: .4s;
     animation: llogon 4s infinite;
 }
@@ -157,7 +158,7 @@ header.scrollh a:hover {
 
 .bannerstardew h1 {
     font-size: 4em;
-    color: rgb(49, 135, 211);
+    color: rgb(227, 255, 255);
 }
 
 .bannerstardew h1 span {
@@ -177,7 +178,7 @@ header.scrollh a:hover {
 
 .bannermine h1 {
     font-size: 4em;
-    color: rgb(49, 135, 211);
+    color: rgb(227, 255, 255);
 }
 
 .bannermine h1 span {
@@ -197,7 +198,7 @@ header.scrollh a:hover {
 
 .bannerundertale h1 {
     font-size: 4em;
-    color: rgb(49, 135, 211);
+    color: rgb(227, 255, 255);
 }
 
 .bannerundertale h1 span {
