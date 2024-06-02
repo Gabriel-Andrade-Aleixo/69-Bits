@@ -478,3 +478,8 @@ footer img {
     border-radius: 5px;
     height: 100%;
 }
+
+video{
+    border: 2px aliceblue solid;
+    border-radius: 15px;
+}
