@@ -145,6 +145,11 @@ header.scrollh a:hover {
     color: rgb(114, 167, 213);
 }
 
+.banner h1:hover {
+    font-size: 4.4em;
+}
+
+
 .bannerstardew {
     height: 100vh;
     background-image: url(./Stardew/img/logo/StardewBanner.png);
