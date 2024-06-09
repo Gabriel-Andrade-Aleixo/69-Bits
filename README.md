@@ -1,6 +1,6 @@
 # PI-1
 Bem Vindo Ao README do nosso PI. <br>
-Projeto de lunos da faculdade Fatec de Franca. <br>
+Projeto de alunos da faculdade Fatec de Franca. <br>
 Aqui esta o link para o site: <a  target='_blank'>https://6665a9dd00616ec9103c5225--taupe-mousse-e0ff7e.netlify.app/ </a> <br>
 Link para um video de apresentaçao do nosso PI:<a>https://youtu.be/qZa60n8zSXE?si=Tn-Z81YpOov6dc9u</a>
 
