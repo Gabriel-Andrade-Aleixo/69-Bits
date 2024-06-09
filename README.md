@@ -1,11 +1,17 @@
 # PI-1
 Bem Vindo Ao README do nosso PI. <br>
-Projeto De Alunos Da Faculdade Fatec de Franca. <br>
-Aqui Esta O link para o site <a  target='_blank'>https://6665a9dd00616ec9103c5225--taupe-mousse-e0ff7e.netlify.app/ </a>
+Projeto de lunos da faculdade Fatec de Franca. <br>
+Aqui esta o link para o site <a  target='_blank'>https://6665a9dd00616ec9103c5225--taupe-mousse-e0ff7e.netlify.app/ </a>
 
 ## Imagens Demonstrativas.
-![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/916172c1-2ff8-43bb-8b01-ee4dc552badf)
-![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/e1a6c279-9bdd-49d8-a206-b60422942604)
+![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/916172c1-2ff8-43bb-8b01-ee4dc552badf) <hr>
+![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/e1a6c279-9bdd-49d8-a206-b60422942604) <hr>
+![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/953e7e63-60c2-4b3f-b9cd-ee4be0ac26b9) <hr>
+![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/e5154c05-55ba-48cc-a344-ad3c8cbbdb7a) <hr>
+![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/d305c7c2-0ec1-461c-b8ca-0cb2fc5bd313)
+
+
+
 
 ## Objetivo Do Projeto:
 O objetivo não é apenas fomentar o mercado brasileiro de jogos, mas também abrir portas para que essas criações únicas alcancem audiências globais. Estamos empenhados em criar uma comunidade vibrante em torno desses jogos, conectando jogadores e desenvolvedores e incentivando um diálogo contínuo que fortaleça ainda mais o cenário de jogos brasileiro. <br>
@@ -19,6 +25,7 @@ Hudson. GitHub: <a target='blank'>https://github.com/HudsonRBJr</a>
 
 
 ### Até a Proxima. :)
-![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/065953bb-ef1d-42e3-9699-f5f94b57b1e6)
+![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/0ad1201d-6498-449b-a49e-65fa99174269)
+
 
 
