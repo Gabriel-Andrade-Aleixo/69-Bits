@@ -1,5 +1,6 @@
 # PI-1
 Bem Vindo Ao README do nosso PI. <br>
+Projeto De Alunos Da Faculdade Fatec de Franca. <br>
 Aqui Esta O link para o site <a  target='_blank'>https://6665a9dd00616ec9103c5225--taupe-mousse-e0ff7e.netlify.app/ </a>
 
 ## Imagens Demonstrativas.
@@ -15,3 +16,9 @@ Gabriel Aleixo. GitHub: <a target='_blank'>https://github.com/Gabriel-Andrade-Al
 Uriel. GitHub: <a target='blank'>https://github.com/MerlinTroll</a> <br>
 Gabriel Camera. Github: <a target='blank'>https://github.com/Gabriel-C137</a> <br>
 Hudson. GitHub: <a target='blank'>https://github.com/HudsonRBJr</a>
+
+
+### Até a Proxima. :)
+![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/065953bb-ef1d-42e3-9699-f5f94b57b1e6)
+
+
