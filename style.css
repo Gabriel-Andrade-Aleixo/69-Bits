@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
+    transition: 0.5s;
     border-radius: 10px;
+}
+*:hover {
+    transition: 0.3s;
 }
 html{
     scroll-behavior: smooth;
