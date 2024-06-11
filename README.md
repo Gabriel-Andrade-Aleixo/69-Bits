@@ -1,8 +1,8 @@
 # PI-1
 Bem Vindo Ao README do nosso PI. <br>
 Projeto de alunos da faculdade Fatec de Franca. <br>
-Aqui esta o link para o site: <a  target='_blank'>https://6665a9dd00616ec9103c5225--taupe-mousse-e0ff7e.netlify.app/ </a> <br>
-Link para um video de apresentaçao do nosso PI:<a>https://youtu.be/qZa60n8zSXE?si=Tn-Z81YpOov6dc9u</a>
+Aqui esta o link para o site: <a  target='_blank'>[https://6665a9dd00616ec9103c5225--taupe-mousse-e0ff7e.netlify.app/](https://pi-1-git-main-gabriels-projects-b16721df.vercel.app) </a> <br>
+Link para um video de apresentaçao do nosso PI:<a target='_blank'>https://youtu.be/qZa60n8zSXE?si=Tn-Z81YpOov6dc9u</a>
 
 ## Imagens Demonstrativas.
 ![image](https://github.com/Gabriel-Andrade-Aleixo/PI-1/assets/162808613/916172c1-2ff8-43bb-8b01-ee4dc552badf) <hr>
