@@ -17,12 +17,14 @@ function limparFormulario() {
     mensagem.style.display = 'flex';
     var mensagem = document.getElementById('mensagem');
     mensagem.style.justifyContent = 'center';
-    setTimeout(function() {
+    setTimeout(function () {
         mensagem.style.display = 'none';
     }, 3000);
 
 }
 
-document.getElementById("login").onclick = function() {
+document.getElementById("login").onclick = function () {
     window.location.href = "./index.html";
-  };
+};
+
+
