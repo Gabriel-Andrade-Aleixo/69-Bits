@@ -53,6 +53,8 @@ header .logo2 {
 }
 
 header .logo2:hover {
+    height: 103px;
+    width: 103px;
     cursor: pointer;
     transition: .4s;
     animation: llogon 4s infinite;
